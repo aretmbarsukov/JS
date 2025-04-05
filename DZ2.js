@@ -1,6 +1,0 @@
-// ...existing code...
-const celsius = 25; // Температура в градусах Цельсія
-const fahrenheit = (celsius * 9/5) + 32; // Формула переведення в Фаренгейти
-
-console.log(`${celsius}°C дорівнює ${fahrenheit}°F`);
-// ...existing code...
