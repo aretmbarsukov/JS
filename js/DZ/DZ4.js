@@ -1,7 +1,7 @@
 //=======1=======
 const user = "Artem"
 const lastName = "Barsukov"
-if (userName == "" && lastName == "") {
+if (user == "" && lastName == "") {
     console.log("Не всі поля заповнені")
 } else {
     console.log("Обидва поля заповнені")
@@ -38,12 +38,12 @@ console.log(gift)
 
 //=========5==========
 const userName = "Artem"
-const emeil = "karasbobra@gmail.com"
+const email = "karasbobra@gmail.com"
 const password = "0987654321"
-if (userName.lenght >= 3 &&
-    emeil.includes("@") &&
-    emeil.includes(".") &&
-    password.lenght >= 6) {
+if (userName.length >= 3 &&
+    email.includes("@") &&
+    email.includes(".") &&
+    password.length >= 6) {
 console.log("Перенаправлення на іншу сторінку")
 } else {
     console.log("Помилка: неправильне заповнення");
