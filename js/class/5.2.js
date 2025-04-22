@@ -83,7 +83,7 @@
 // alert(
 //   `Виберіть один з мов: ua, en, ru, de, ch, fr`
 // );
-// const leng = prompt("Щберіть одну з мов")
+// const leng = prompt("Вберіть одну з мов")
 // switch (leng) {
 //     case "ua":
 //         alert(ua)
