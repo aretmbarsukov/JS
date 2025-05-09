@@ -48,11 +48,11 @@ console.log(maxNum)
 
 console.log(`===============7==============`);
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const numberss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let evenNumber = [];
-for (let o = 0; o < numbers.length; o += 1){
-  if (numbers[o] % 2 === 0) {
-    evenNumber.push(numbers[o])
+for (let o = 0; o < numberss.length; o += 1){
+  if (numberss[o] % 2 === 0) {
+    evenNumber.push(numberss[o])
   }
 }
 console.log(evenNumber)
