@@ -23,7 +23,6 @@ console.log(`===============4==============`);
 const five = [1, 2, 3, 4, 5]
 for (let a = 0; a < five.length; a += 1){
     console.log(five[a])
-    break
 }
 
 console.log(`===============5==============`);
