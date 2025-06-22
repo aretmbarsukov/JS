@@ -2,6 +2,7 @@ function countProps(obj) {
     return Object.keys(obj).length;
 }
 
+//========1========
 const user = {
   name: "Artem",
   age: 16,
@@ -18,12 +19,12 @@ for (const key of Object.keys(user)) {
 }
 
 console.log("");
-
+//========2========
 const fin = countProps(user);
 console.log(`Кількість властивостей: ${fin}`);
 
 console.log("");
-
+//========3========
 function findBestEmployee(employees) {
     let bestNam = null
     let bestWork = 0
@@ -45,7 +46,7 @@ const team = {
 console.log(findBestEmployee(team))
 
 console.log("")
-
+//========4========
 function countTotalSalary(employees) {
     let salary = 0
 
@@ -64,7 +65,7 @@ const salaries = {
 console.log(countTotalSalary(salaries));
 
 console.log("")
-
+//========5========
 function getAllPropValues(arr, prop) {
     const result = []
     for (const obj of arr) {
@@ -85,7 +86,7 @@ console.log(getAllPropValues(products, "price"));
 console.log(getAllPropValues(products, "quantity"));
 
 console.log("")
-
+//========6========
 function calculateTotalPrice(allProducts, productName) {
   let total = 0;
 
@@ -99,6 +100,3 @@ function calculateTotalPrice(allProducts, productName) {
   return total;
 }
 console.log(calculateTotalPrice(products, "Phone"));
-
-console.log("")
-
